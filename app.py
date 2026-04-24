@@ -18,6 +18,17 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
 .stApp { background: #f8faff; }
 .block-container { padding: 2rem 2.5rem !important; max-width: 1400px !important; }
 
+/* Hide Streamlit default UI */
+#MainMenu { visibility: hidden; }
+header { visibility: hidden; }
+footer { visibility: hidden; }
+[data-testid="stToolbar"] { display: none; }
+[data-testid="stDecoration"] { display: none; }
+[data-testid="stHeader"] { display: none; }
+.stDeployButton { display: none; }
+div[data-testid="stStatusWidget"] { display: none; }
+#root > div:first-child { padding-top: 0 !important; }
+
 /* Hero */
 .hero {
     background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
