@@ -321,28 +321,7 @@ st.markdown("""
 <div class="hero">
     <div class="hero-badge">✦ AI Powered Prediction System</div>
     <div class="hero-title">BookingGuard AI</div>
-    <div class="hero-sub">
-        Intelligent hotel booking cancellation prediction using Logistic Regression.<br>
-        Analyse booking patterns and predict cancellation risk instantly.
-    </div>
-    <div class="stats-row">
-        <div class="stat-box">
-            <span class="stat-num">71.21%</span>
-            <span class="stat-lbl">Accuracy</span>
-        </div>
-        <div class="stat-box">
-            <span class="stat-num">76.27%</span>
-            <span class="stat-lbl">Recall</span>
-        </div>
-        <div class="stat-box">
-            <span class="stat-num">80.31%</span>
-            <span class="stat-lbl">AUC-ROC</span>
-        </div>
-        <div class="stat-box">
-            <span class="stat-num">87K+</span>
-            <span class="stat-lbl">Records</span>
-        </div>
-    </div>
+    <div class="hero-sub">Predicting hotel booking cancellations using Logistic Regression</div>
 </div>
 """, unsafe_allow_html=True)
 
