@@ -4,30 +4,31 @@
 
 ---
 
-## 📊 Project Overview
-This project predicts whether a hotel booking
-will be cancelled using machine learning.
-Built as part of IT4060 Machine Learning
-Assignment — Member 1.
+## 📌 Project Overview
+
+A machine learning model that predicts whether a hotel booking will be cancelled or not. Built using Logistic Regression on the Hotel Booking Demand dataset containing 119,390 real hotel booking records. The project includes a complete end-to-end ML pipeline covering data preprocessing, SMOTE class balancing, feature engineering, model training and evaluation. A Streamlit web application is included for real-time cancellation prediction.
 
 ---
 
 ## 📁 Dataset
+
 | Detail | Value |
 |--------|-------|
-| Source | Hotel Booking Demand (Kaggle) |
+| Source | [Hotel Booking Demand — Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand) |
 | Records | 119,390 hotel bookings |
 | Features | 32 columns |
-| Target | is_canceled (0 or 1) |
+| Target | `is_canceled` (0 = Not Cancelled, 1 = Cancelled) |
 
 ---
 
 ## 🤖 Algorithm
+
 **Logistic Regression** (Binary Classification)
 
 ---
 
 ## ⚙️ Preprocessing Steps
+
 1. Duplicate removal (31,994 records removed)
 2. Missing value treatment
 3. Data leakage column removal
@@ -53,3 +54,29 @@ Assignment — Member 1.
 ---
 
 ## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| Language | Python 3.x |
+| ML Library | scikit-learn |
+| Data Processing | pandas, numpy |
+| Visualisation | matplotlib, seaborn |
+| Class Balancing | imbalanced-learn (SMOTE) |
+| Web App | Streamlit |
+| Model Saving | pickle |
+
+---
+
+## 🌐 Web Application
+
+Built with **Streamlit** for real-time cancellation prediction.
+
+```bash
+streamlit run app.py
+
+
+
+
+<div align="center">
+  Hotel Booking Cancellation Prediction · Logistic Regression · Python · Streamlit
+</div>
